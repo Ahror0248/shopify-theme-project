@@ -19,5 +19,9 @@
   "homepage": "https://github.com/polidario/Elizabeth_Clean#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@shopify/cli": "^3.45.1",
+    "@shopify/theme": "^3.45.1"
   }
 }
