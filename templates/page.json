@@ -1,8 +1,18 @@
 {
   "sections": {
     "template": {
-      "type": "template-page"
+      "type": "template-page",
+      "settings": {
+      }
+    },
+    "99e8561f-2272-4f92-89ef-1f5bc241a746": {
+      "type": "contant-form",
+      "settings": {
+      }
     }
   },
-  "order": ["template"]
+  "order": [
+    "template",
+    "99e8561f-2272-4f92-89ef-1f5bc241a746"
+  ]
 }
