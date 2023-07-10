@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "template": {
+      "type": "template-page"
+    },
+    "contact-form": {
+      "type": "contant-form"
+    }
+  },
+  "order": ["template", "contact-form"]
+}

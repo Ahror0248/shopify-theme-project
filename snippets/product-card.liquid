@@ -6,7 +6,10 @@
           <img
             src="{{ product_product.featured_image | img_url: 'medium' }}"
             class="w-full h-full object-cover transition duration-700 ease-in-out hover:scale-105 transform"
-            alt="{{ product_product.featured_image.alt }}">
+            alt="{{ product_product.featured_image.alt }}"
+            loading="lazy"
+            height="100"
+            width="100">
         </div>
       {% else %}
         {{ "product-1" | placeholder_svg_tag: "w-full h-full object-cover bg-gray-100" }}

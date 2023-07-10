@@ -13,7 +13,10 @@
                   <img
                     class="w-full h-80 object-cover"
                     src="{{ article.image | img_url: 'medium' }}"
-                    alt="{{ article.image.alt }}">
+                    alt="{{ article.image.alt }}"
+                    loading="lazy"
+                    width="100"
+                    height="1000">
                 </a>
               {% else %}
                 {{ "image" | placeholder_svg_tag: "w-full h-80 object-cover bg-gray-100" }}
